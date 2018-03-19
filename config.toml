@@ -1,4 +1,4 @@
-baseURL = "http://leeabner.com/"
+baseURL = "http://blog.leeabner.com/"
 languageCode = "en-us"
 title = "Lee Abner's Blog"
 theme = "lanyon"
