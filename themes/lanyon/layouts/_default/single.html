@@ -4,6 +4,23 @@
   <h1 class="post-title">{{ .Title }}</h1>
   <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</span>
   {{ .Content }}
+  {{ with .GetTerms "categories" }}
+  <p>
+    <strong>Categories:</strong>
+    {{ range $i, $e := . }}
+      {{ if $i }}, {{ end }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </p>
+  {{ end }}
+
+  {{ with .GetTerms "tags" }}
+  <p>
+    <strong>Tags:</strong>
+    {{ range $i, $e := . }}
+      {{ if $i }}, {{ end }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </p>
+  {{ end }}
   {{- if .Site.Config.Services.Disqus.Shortname -}}
   <hr>
   <h2>Comments</h2>

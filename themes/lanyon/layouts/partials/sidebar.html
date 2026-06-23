@@ -29,6 +29,8 @@
         <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end -}}
     {{ end -}}
+    <a class="sidebar-nav-item" href="{{ "/tags/" | relURL }}">Tags</a>
+    <a class="sidebar-nav-item" href="{{ "/categories/" | relURL }}">Categories</a>
 
     {{- with .Site.Params.Github }}
     <a class="sidebar-nav-item" href="{{ .url }}/archive/{{ .head }}.zip">Download</a>

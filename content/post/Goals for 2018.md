@@ -2,6 +2,8 @@
 title: "Goals for 2018"
 date: 2018-03-13T10:58:08-05:00
 draft: false
+tags: ["goals"]
+categories: ["general"]
 ---
 
 
