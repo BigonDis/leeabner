@@ -9,7 +9,7 @@
       {{- with .Site.Params.description }}
       {{ . | markdownify }}
       {{- else }}
-      <img src="/img/tech-tree2.png">
+      <img src="/img/learning_bulb2.png">
       <p>A journey of growth and learning in the techology field, with an emphasis on virtualization, cloud, and security</p>
       {{- end }}
     </p>
@@ -29,8 +29,8 @@
         <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end -}}
     {{ end -}}
-    <a class="sidebar-nav-item" href="{{ "/tags/" | relURL }}">Tags</a>
-    <a class="sidebar-nav-item" href="{{ "/categories/" | relURL }}">Categories</a>
+    <a class="sidebar-nav-item" href="{{ "/tags/" | relURL }}">ContentTags</a>
+    <a class="sidebar-nav-item" href="{{ "/categories/" | relURL }}">Post Categories</a>
 
     {{- with .Site.Params.Github }}
     <a class="sidebar-nav-item" href="{{ .url }}/archive/{{ .head }}.zip">Download</a>
