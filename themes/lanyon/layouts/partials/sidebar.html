@@ -29,7 +29,7 @@
         <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end -}}
     {{ end -}}
-    <a class="sidebar-nav-item" href="{{ "/tags/" | relURL }}">ContentTags</a>
+    <a class="sidebar-nav-item" href="{{ "/tags/" | relURL }}">Content Tags</a>
     <a class="sidebar-nav-item" href="{{ "/categories/" | relURL }}">Post Categories</a>
 
     {{- with .Site.Params.Github }}

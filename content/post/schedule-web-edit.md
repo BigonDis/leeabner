@@ -1,6 +1,6 @@
 ---
 title: "Schedule a Web Edit"
-date: 2026-06-23T11:54:10-05:00
+date: 2026-06-24T11:54:10-05:00
 draft: false
 categories: ["Tutorial"]
 tags: ["linux"]

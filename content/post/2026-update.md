@@ -9,6 +9,8 @@ It has been a long time since I have posted on this blog.  I never did get into 
 
 All of our jobs have changed since 2018 as technology has evolved and I am no different.  I am not nearly as focused on virtualization as I was, but do spend more time on security than I ever have.  I have also been looking into ways to automate things and Infrastructe as Code has really piqued my interest, so I am sure there will be some posts about that in the future.
 
+Topics I am hoping to post about include Infrastructure as Code, including Ansible, and Terraform.  Amazon AWS general information as I am no expert, at this time anyway, but I do all my personal work in AWS.  Some Azure information as we use Azure for some small things at work, and I might be able to extrapolate my learning to those as well.  I might post some musings on security topics as I see things or if there is anything technical that I do, I might try and replay that as well.  In general, anytime I try something new, I want to document it.
+
 Another benefit of this blog is that I have become obsessed with writing in Markdown.  It seems like such an easy way to write documentation that can be presented in a easy to read format.  Since the blog still uses [Hugo](https://gohugo.io) it will be a good way for me to practice more in writing Markdown.
 
 Well let's hope it doesn't take eight years until my next post.
